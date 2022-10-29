@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#HomePage{
+    font-family: 'Inter', sans-serif;
+}
+
+#top{
+    border-bottom: 3px solid black;
+    border-top: 1px solid black;
+
+}
+
+
+#titleLind{
+    font-size: 200px;
+    font-weight: 900;
+    width: fit-content;
+    margin: 0 auto;
+    line-height: 230px;
+}
+
+#btns{
+    width: fit-content;
+    margin: 30px auto;
+}
+
+.btn{
+    transition: all .3s;
+    border: 2px solid black;
+    width: 150px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0.4em 0.6em 0.4em 0.6em;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: all .3s;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#getStarted{
+    transition: all .3s;
+    background-color: #2294ff;
+    color: white;
+}
+
+#getStarted:hover{
+    transition: all .3s;
+    background-color: #0d4a83;
+    color: white;
+}
+
+
+#bottom{
+    display: flex;
+    width: fit-content;
+    margin-top: 4em;
+}
+
+#postsLind{
+    margin-left: 20em;
+    width: fit-content;
+    padding-right: 4em;
+    border-right: 2px solid black;
+}
+
+#trending{
+    width: 25%;
+    padding-left: 3em;
+}
+
+#morePosts{
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+#btnMore{
+    transition: 0.3s all;
+    color: white;
+    background-color: #2294ff;
+    padding: 8px 15px 8px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: none;
+    border: none;
+}
+
+#btnMore:hover{
+    border-radius: 16px;
+}
+
+#header{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 4px solid #FFD057;
+}

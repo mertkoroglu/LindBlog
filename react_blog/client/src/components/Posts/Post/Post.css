@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.card{
+    display: flex;
+    margin: 1em;
+    border: 1px solid black;
+    width: fit-content;
+    padding-left: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.user{
+    display: flex;
+    margin-top: 0.5em;
+    width: 600px;
+}
+
+#delete{
+    transition: 0.3s all;
+    margin: 0.3em;
+    border-radius: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+#delete:hover{
+    transition: 0.3s all;
+    background-color: rgb(255, 208, 208);
+    color: red;
+}
+
+.name{
+    margin: 0.4em;
+    text-align: center;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+.avatar{
+    margin: 0.2em;
+}
+
+.left{
+    margin-right: 16px;
+}
+
+.content{
+    padding: 0.4em;
+    font-size: 18px;
+}
+
+.img{
+    height: 150px;
+}
+
+.title{
+    padding: 0.2em;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.createdAt{
+    margin-left: 0.2em;
+    margin-right: 30em;
+    vertical-align: bottom;
+    font-size: 14px;
+}
+
+.bottom{
+    width: 600px;
+    margin: 0.2em 0 1em 0;
+}
+
+#button{
+    transition: 0.3s all;
+    color: white;
+    background-color: black;
+    padding: 8px 15px 8px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: none;
+    border: 2px solid transparent;
+
+}
+
+#button:hover{
+    transition: 0.3s all;
+    border-radius: 16px;
+    border: 2px solid black;
+}
+
+.tag{
+    width: fit-content;
+    margin: 0.3em;
+    padding: 0.2em 0.8em 0.2em 0.8em;
+    border-radius: 10px;
+    font-size: 14px;
+    box-shadow: 0 0 1px 1px black;
+}
+
+.tags{
+    display: flex;
+}
+
+.right{
+    background-color: black;
+    width: 220px;
+}

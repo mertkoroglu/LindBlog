@@ -1,0 +1,22 @@
+#title{
+    font-size: 22px;
+}
+
+#user{
+
+}
+
+#post{
+    display: flex;
+    margin: .5em;
+    cursor: pointer;
+}
+
+#index{
+    margin-right: 20px;
+    font-size: 40px;
+    color: #FFD057;
+    width: 50px;
+    height: 60px;
+    padding: 0;
+}
